@@ -1,0 +1,222 @@
+[2025-04-13 15:58:32] Login attempt initiated
+Connection status: Connected
+Executing SQL: SELECT id, username, email, password FROM users WHERE username = ?
+Found users: 1
+User found, verifying password
+Stored hash: $2y$10$F09...(redacted)
+Login successful, redirecting to dashboard
+
+[2025-04-13 16:32:51] Login attempt initiated
+Connection status: Connected
+Executing SQL: SELECT id, username, email, password FROM users WHERE username = ?
+Found users: 0
+Username not found in database
+
+[2025-04-13 16:33:01] Login attempt initiated
+Connection status: Connected
+Executing SQL: SELECT id, username, email, password FROM users WHERE username = ?
+Found users: 0
+Username not found in database
+
+[2025-04-13 16:33:17] Login attempt initiated
+Connection status: Connected
+Executing SQL: SELECT id, username, email, password FROM users WHERE username = ?
+Found users: 1
+User found, verifying password
+Stored hash: $2y$10$cn3...(redacted)
+Login successful, redirecting to dashboard
+
+[2025-04-14 09:05:55] Login attempt initiated
+Connection status: Connected
+Executing SQL: SELECT id, username, email, password FROM users WHERE username = ?
+Found users: 1
+User found, verifying password
+Stored hash: $2y$10$cn3...(redacted)
+Login successful, redirecting to dashboard
+
+[2025-04-14 09:37:50] Login attempt initiated
+Connection status: Connected
+Executing SQL: SELECT id, username, email, password FROM users WHERE username = ?
+Found users: 0
+Username not found in database
+
+[2025-04-14 09:37:57] Login attempt initiated
+Connection status: Connected
+Executing SQL: SELECT id, username, email, password FROM users WHERE username = ?
+Found users: 0
+Username not found in database
+
+[2025-04-14 09:38:16] Login attempt initiated
+Connection status: Connected
+Executing SQL: SELECT id, username, email, password FROM users WHERE username = ?
+Found users: 1
+User found, verifying password
+Stored hash: $2y$10$irK...(redacted)
+Login successful, redirecting to dashboard
+
+[2025-04-14 09:43:41] Login attempt initiated
+Connection status: Connected
+Executing SQL: SELECT id, username, email, password FROM users WHERE username = ?
+Found users: 1
+User found, verifying password
+Stored hash: $2y$10$irK...(redacted)
+Login successful, redirecting to dashboard
+
+[2025-04-14 10:23:44] Login attempt initiated
+Connection status: Connected
+Executing SQL: SELECT id, username, email, password FROM users WHERE username = ?
+Found users: 1
+User found, verifying password
+Stored hash: $2y$10$irK...(redacted)
+Login successful, redirecting to dashboard
+
+[2025-04-14 11:11:32] Login attempt initiated
+Connection status: Connected
+Executing SQL: SELECT id, username, email, password FROM users WHERE username = ?
+Found users: 1
+User found, verifying password
+Stored hash: $2y$10$irK...(redacted)
+Login successful, redirecting to dashboard
+
+[2025-04-14 11:12:55] Login attempt initiated
+Connection status: Connected
+Executing SQL: SELECT id, username, email, password FROM users WHERE username = ?
+Found users: 1
+User found, verifying password
+Stored hash: $2y$10$irK...(redacted)
+Login successful, redirecting to dashboard
+
+[2025-04-14 11:13:09] Login attempt initiated
+Connection status: Connected
+Executing SQL: SELECT id, username, email, password FROM users WHERE username = ?
+Found users: 1
+User found, verifying password
+Stored hash: $2y$10$irK...(redacted)
+Login successful, redirecting to dashboard
+
+[2025-04-14 11:17:53] Login attempt initiated
+Connection status: Connected
+Executing SQL: SELECT id, username, email, password FROM users WHERE username = ?
+Found users: 0
+Username not found in database
+
+[2025-04-14 11:17:58] Login attempt initiated
+Connection status: Connected
+Executing SQL: SELECT id, username, email, password FROM users WHERE username = ?
+Found users: 0
+Username not found in database
+
+[2025-04-14 11:18:11] Login attempt initiated
+Connection status: Connected
+Executing SQL: SELECT id, username, email, password FROM users WHERE username = ?
+Found users: 1
+User found, verifying password
+Stored hash: $2y$10$QbC...(redacted)
+Login successful, redirecting to dashboard
+
+[2025-04-14 14:55:12] Login attempt initiated
+Connection status: Connected
+Executing SQL: SELECT id, username, email, password FROM users WHERE username = ?
+Found users: 1
+User found, verifying password
+Stored hash: $2y$10$QbC...(redacted)
+Login successful, redirecting to dashboard
+
+[2025-04-15 10:20:57] Login attempt initiated
+Connection status: Connected
+Executing SQL: SELECT id, username, email, password FROM users WHERE username = ?
+Found users: 1
+User found, verifying password
+Stored hash: $2y$10$QbC...(redacted)
+Login successful, redirecting to dashboard
+
+[2025-04-19 07:38:24] Login attempt initiated
+Connection status: Connected
+Executing SQL: SELECT id, username, email, password FROM users WHERE username = ?
+Found users: 1
+User found, verifying password
+Stored hash: $2y$10$QbC...(redacted)
+Login successful, redirecting to dashboard
+
+[2025-04-19 07:42:07] Login attempt initiated
+Connection status: Connected
+Executing SQL: SELECT id, username, email, password FROM users WHERE username = ?
+Found users: 1
+User found, verifying password
+Stored hash: $2y$10$QbC...(redacted)
+Login successful, redirecting to dashboard
+
+[2025-04-19 07:42:57] Login attempt initiated
+Connection status: Connected
+Executing SQL: SELECT id, username, email, password FROM users WHERE username = ?
+Found users: 1
+User found, verifying password
+Stored hash: $2y$10$gi0...(redacted)
+Password verification failed
+
+[2025-04-19 07:43:05] Login attempt initiated
+Connection status: Connected
+Executing SQL: SELECT id, username, email, password FROM users WHERE username = ?
+Found users: 1
+User found, verifying password
+Stored hash: $2y$10$gi0...(redacted)
+Login successful, redirecting to dashboard
+
+[2025-04-19 09:42:53] Login attempt initiated
+Connection status: Connected
+Executing SQL: SELECT id, username, email, password FROM users WHERE username = ?
+Found users: 0
+Username not found in database
+
+[2025-04-19 09:43:06] Login attempt initiated
+Connection status: Connected
+Executing SQL: SELECT id, username, email, password FROM users WHERE username = ?
+Found users: 1
+User found, verifying password
+Stored hash: $2y$10$VKw...(redacted)
+Login successful, redirecting to dashboard
+
+[2025-04-19 11:02:18] Login attempt initiated
+Connection status: Connected
+Executing SQL: SELECT id, username, email, password FROM users WHERE username = ?
+Found users: 1
+User found, verifying password
+Stored hash: $2y$10$pyV...(redacted)
+Login successful, redirecting to dashboard
+
+[2025-04-19 11:02:26] Login attempt initiated
+Connection status: Connected
+Executing SQL: SELECT id, username, email, password FROM users WHERE username = ?
+Found users: 1
+User found, verifying password
+Stored hash: $2y$10$pyV...(redacted)
+Login successful, redirecting to dashboard
+
+[2025-04-19 11:09:04] Login attempt initiated
+Connection status: Connected
+Executing SQL: SELECT id, username, email, password FROM users WHERE username = ?
+Found users: 0
+Username not found in database
+
+[2025-04-19 11:09:13] Login attempt initiated
+Connection status: Connected
+Executing SQL: SELECT id, username, email, password FROM users WHERE username = ?
+Found users: 1
+User found, verifying password
+Stored hash: $2y$10$VKw...(redacted)
+Login successful, redirecting to dashboard
+
+[2025-04-19 12:11:47] Login attempt initiated
+Connection status: Connected
+Executing SQL: SELECT id, username, email, password FROM users WHERE username = ?
+Found users: 0
+Username not found in database
+
+[2025-04-19 12:13:42] Login attempt initiated
+Connection status: Connected
+Executing SQL: SELECT id, username, email, password FROM users WHERE username = ?
+Found users: 1
+User found, verifying password
+Stored hash: $2y$10$Gnp...(redacted)
+Login successful, redirecting to dashboard
+
