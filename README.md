@@ -1,158 +1,97 @@
-# 🌟 FinMate  
+# Budget Tracker
 
+A comprehensive PHP web application for tracking personal finances, managing budgets, and setting savings goals.
 
-A comprehensive PHP web application for tracking personal finances, managing budgets, and setting savings goals.*
+## Features
 
-## 🚀 Features
+### Core Features
+- **User Registration/Login**: Secure user accounts with password hashing
+- **Dashboard**: Visual summary of income, expenses, and savings
+- **Transaction Management**: Add, edit, and delete income and expense transactions
+- **Categories**: Organize transactions by customizable categories
+- **Budget Limits**: Set monthly or weekly spending limits for different categories
+- **Visual Reports**: View spending patterns with interactive charts
+- **Date Range Filtering**: Analyze finances across different time periods
 
-### 🔧 Core Features
-- **🔐 User Registration/Login**  
-  Secure user accounts with password hashing
+### Advanced Features
+- **Savings Goals**: Set and track progress towards financial goals
+- **Financial Reports & Insights**: Get deeper analysis of spending patterns
+- **Export Functionality**: Export reports to CSV or print them as PDF
+- **Mobile Responsive Design**: Access from any device with a responsive layout
 
-- **📊 Dashboard**  
-  Visual summary of income, expenses, and savings
+## Technology Stack
 
-- **💸 Transaction Management**  
-  Add, edit, and delete income and expense transactions
+- **PHP**: Core backend language
+- **MySQL**: Database for storing user data and transactions
+- **Bootstrap 5**: Frontend framework for responsive design
+- **Chart.js**: JavaScript library for creating interactive charts
+- **Font Awesome**: Icon library for user interface enhancements
 
-- **📂 Categories**  
-  Organize transactions by customizable categories
+## Installation
 
-- **📉 Budget Limits**  
-  Set monthly or weekly spending limits for different categories
+1. Clone the repository to your web server directory:
+   ```
+   git clone https://github.com/yourusername/budget-tracker.git
+   ```
 
-- **📈 Visual Reports**  
-  View spending patterns with interactive charts
+2. Make sure you have a web server (like Apache) and MySQL installed (XAMPP or similar will work)
 
-- **📅 Date Range Filtering**  
-  Analyze finances across different time periods
+3. Navigate to the project directory and update database configuration in `config/database.php` with your MySQL credentials
 
----
+4. There are two ways to set up the database:
 
-### 🌟 Advanced Features
-- **🎯 Savings Goals**  
-  Set and track progress towards financial goals
+   **Option 1: Automatic Installation (Recommended)**
+   - Simply visit `http://localhost/budget/install.php` in your browser
+   - The installer will set up the database schema and default categories automatically
 
-- **📘 Financial Reports & Insights**  
-  Get deeper analysis of your spending habits
+   **Option 2: Manual Installation**
+   - Create a MySQL database named `budget_tracker`
+   - Import the `database/schema.sql` file into your MySQL database:
+     ```
+     mysql -u username -p budget_tracker < database/schema.sql
+     ```
 
-- **📤 Export Functionality**  
-  Export reports to CSV or print them as PDFs
+5. Access the application through your web browser:
+   ```
+   http://localhost/budget
+   ```
 
-- **📱 Mobile Responsive Design**  
-  Access from any device with a responsive layout
+6. Register an account and start tracking your finances!
 
----
+## Application Structure
 
-## 🛠️ Technology Stack
+- `/assets`: CSS, JavaScript, and image files
+- `/config`: Database configuration
+- `/database`: Database setup scripts and schema
+- `/includes`: Reusable PHP components and functions
+- Root PHP files: Main application pages
 
-| Tech         | Purpose                                  |
-|--------------|------------------------------------------|
-| **PHP**      | Core backend language                    |
-| **MySQL**    | Database for storing user data           |
-| **Bootstrap 5** | Responsive frontend design framework |
-| **Chart.js** | Interactive charts and data visualization|
-| **Font Awesome** | Icons for enhanced UI              |
+## Usage
 
----
+1. Register a new account or log in if you already have one
+2. Add your income and expense transactions
+3. Set up budget limits for different spending categories
+4. Create savings goals to track your progress
+5. Use the reports section to analyze your spending patterns
+6. Export or print reports as needed
 
-## 📥 Installation Guide
+## Security Features
 
-### 1. Clone the Repository
-```bash
-git clone https://github.com/yourusername/budget-tracker.git
-```
-
-### 2. Setup Your Environment
-Ensure you have a web server like **Apache** and **MySQL** installed (e.g., XAMPP, WAMP).
-
-### 3. Configure Database
-Edit the file at:
-```
-/config/database.php
-```
-Update it with your MySQL credentials.
-
----
-
-### 4. Database Setup
-
-#### ✅ Option 1: Automatic Installation (Recommended)
-- Visit in your browser:
-```
-http://localhost/budget/install.php
-```
-- The installer will auto-create the database schema and default categories.
-
-#### 🛠️ Option 2: Manual Installation
-- Create a MySQL database named `budget_tracker`
-- Import the SQL schema:
-```bash
-mysql -u username -p budget_tracker < database/schema.sql
-```
-
----
-
-### 5. Launch the App
-```bash
-http://localhost/budget
-```
-
-### 6. Start Using FinMate
-- Register a new account
-- Add your income and expenses
-- Set budgets and savings goals
-- Analyze your spending and export reports
-
----
-
-## 📁 Application Structure
-
-```
-/assets       → CSS, JS, and image files  
-/config       → Database configuration  
-/database     → Setup scripts and SQL schema  
-/includes     → Reusable PHP components  
-/*.php        → Main application pages
-```
-
----
-
-## 🧭 Usage Flow
-
-1. Register or log in
-2. Add transactions (income or expenses)
-3. Set budget limits by category
-4. Create and track savings goals
-5. View reports and gain insights
-6. Export or print reports when needed
-
----
-
-## 🔐 Security Features
-
-- Secure password hashing
-- Input validation and sanitization
+- Password hashing for secure user authentication
+- Form input validation and sanitization
 - Prepared SQL statements to prevent SQL injection
 - Session-based authentication
 
----
+## License
 
-## 📄 License
+This project is licensed under the MIT License - see the LICENSE file for details.
 
-This project is licensed under the **MIT License** – see the [LICENSE](LICENSE) file for details.
+## Acknowledgments
 
----
+- Bootstrap 5 for the responsive frontend framework
+- Chart.js for the interactive charts
+- Font Awesome for the icons
 
-## 🙌 Acknowledgments
+## Contributing
 
-- **Bootstrap 5** – for the responsive frontend  
-- **Chart.js** – for interactive financial charts  
-- **Font Awesome** – for a beautiful icon library
-
----
-
-## 🤝 Contributing
-
-Pull requests are welcome! If you find a bug or want to suggest a feature, feel free to contribute.
-
+Contributions are welcome! Please feel free to submit a Pull Request. 
