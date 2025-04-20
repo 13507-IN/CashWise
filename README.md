@@ -1,8 +1,4 @@
-Sure bro! Here's the **properly formatted `README.md`** file content — just **copy and paste** it into your `README.md` file, and you're all set! 💪
 
----
-
-```markdown
 # 🌟 FinMate
 
 **A comprehensive PHP web application for tracking personal finances, managing budgets, and setting savings goals.**
@@ -12,7 +8,6 @@ Sure bro! Here's the **properly formatted `README.md`** file content — just **
 
 ![License](https://img.shields.io/badge/License-MIT-blue.svg)
 
----
 
 ## 🚀 Features
 
